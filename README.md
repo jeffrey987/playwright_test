@@ -1,6 +1,16 @@
 # playwright_test
 Playwright module provides a method to launch a browser instance. The following is a typical example of using Playwright to drive automation:
-先要安装dotnet tool
+1. 先要安装dotnet tool
+1. 把 dotnet tool 添加到环境环境变量
+```
+	cat << \EOF >> ~/.zprofile                    
+	export PATH="$PATH:/Users/xxx/.dotnet/tools"
+	EOF
+```
+
+1. Mac系统下还要安装powershell
+1. 然后根据项目生成的脚本去安装浏览器
+1. 
 # Create project
 dotnet new console -n PlaywrightDemo
 cd PlaywrightDemo
