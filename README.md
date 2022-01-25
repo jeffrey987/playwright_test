@@ -1,6 +1,6 @@
 # playwright_test
 Playwright module provides a method to launch a browser instance. The following is a typical example of using Playwright to drive automation:
-
+先要安装dotnet tool
 # Create project
 dotnet new console -n PlaywrightDemo
 cd PlaywrightDemo
@@ -12,7 +12,7 @@ dotnet build
 # Install required browsers
 pwsh bin\Debug\netX\playwright.ps1 install
 
-# code
+# Code
 ```
 using Microsoft.Playwright;
 using System.Threading.Tasks;
