@@ -9,8 +9,8 @@ Playwright module provides a method to launch a browser instance. The following 
 ```
 
 1. Mac系统下还要安装powershell
-1. 然后根据项目生成的脚本去安装浏览器
-1. 
+1. 然后根据项目生成的脚本去安装内置浏览器
+1. 测试powersshell-cli
 # Create project
 dotnet new console -n PlaywrightDemo
 cd PlaywrightDemo
